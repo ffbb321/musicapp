@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import rankingUI from "./rankingUI";
+import RankingUI from "./rankingUI";
 // import './rankingstyle.scss'
 
 // 复杂组件,容器组件
@@ -14,7 +14,7 @@ export default class Ranking extends Component{
         // let {list} = this.state;
 
         // return <rankingUI data={list} goDetail={this.goDetail.bind(this)}/>
-        return <rankingUI/>
+        return <RankingUI/>
     }
 
     // goDetail(index){
