@@ -5,12 +5,14 @@ import './App.css';
 import ranking from './pages/ranking/ranking';
 import home from './pages/home/Home'
 import Tab from './common/tab.jsx'
+import Header from './common/header.jsx'
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
      <Router>
        <div className="app">
+         <Header/>
           <Switch>
             <Route path="/ranking" component={ranking}/>  
             <Route path="/" component={home}/>
@@ -22,4 +24,3 @@ class App extends Component {
   }
 }
 
-export default App;
