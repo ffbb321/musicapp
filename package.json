@@ -28,5 +28,5 @@
   "devDependencies": {
     "node-sass": "^4.10.0"
   },
-  "proxy": "https://c.y.qq.com"
+  "proxy": "https://c.y.qq.com/"
 }
