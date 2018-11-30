@@ -3,18 +3,17 @@ import React from 'react'
 export default function rankingUI(props){
     return (
         <div id="ranking"  className="page">
-            <h1>这是ranking组件</h1>
-            {/* <ul className="list">
-            {
-                props.data.map((item, index)=>{
-                    return (
-                        <li className="item" key={index} onClick={props.goDetail.bind(this, index)}>
-                            {item}
-                        </li>
-                    )
-                })
-            }
-            </ul> */}
+           <ul>
+            {/* {
+                 (function(){
+                    let newData = [];
+                    for(let i = 0; i < arr.length; i++){
+                        newData.push(<li key={i}>{arr[i]}</li>);
+                    }
+                    return newData;
+                })() 
+            }     */}
+           </ul>
         </div>
     )
 }

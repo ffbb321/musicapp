@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Component } from 'react';
+import './Home.scss'
 
 export default class Home extends Component {
     constructor(params) {
@@ -6,8 +7,12 @@ export default class Home extends Component {
     }
     render() {
         return (
-             <div>
-                 主页
+             <div className="page">
+                 <p>主页</p>
+                 <p>主页</p>
+                 <p>主页</p>
+                 <p>主页</p>
+                 <p>主页</p>
              </div>
         );
     }
