@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import {BrowserRouter as Router, Route, NavLink as Link, Redirect, Switch} from 'react-router-dom'
 import './App.css';
-import ranking from './pages/ranking';
+import ranking from './pages/ranking/ranking.jsx';
 
 class App extends Component {
   render() {
