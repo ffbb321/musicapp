@@ -10,7 +10,7 @@ class App extends Component {
      <Router>
        <div className="app">
           <Switch>
-            <Route/>
+            <Route path="/ranking" component={ranking}/>  
           </Switch>
        </div>
      </Router>
